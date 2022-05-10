@@ -1,0 +1,106 @@
+body {
+    min-height: 40rem;
+    padding-top: 4.5rem;
+}
+
+/*=============Ошибки форм==================*/
+
+div.inpErrDiv{
+    display: inline-block;
+    padding: 0 !important;
+    float: left;
+}
+
+.form-group > div.inpErrDiv{
+    float: none;
+    display: inherit;
+}
+
+form.form-inline div.inpErrDiv{
+    float: inherit !important;
+}
+
+.input_error{
+    border: 1px solid #FF5340 !important;
+    border-radius: 4px !important;
+    min-width: 100px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100% !important;
+}
+.input_error_mess{
+    color:#dc3545;
+    padding: 0 3px;
+    font-size: 0.9em;
+}
+
+.input_error_mess a{
+    color: white;
+    text-decoration: underline;
+}
+
+
+.myform_modal-backdrop, .page_load_backdrop {
+    background-color: #ffffff;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2000;
+    text-align: center;
+    vertical-align: middle;
+    opacity: 0.8;
+}
+
+.myform_modal-backdrop .message, .page_load_backdrop .message{
+    font-size: 72px;
+    color: black;
+    opacity: 1;
+    background-color: #ffffff;
+    line-height: 72px;
+    margin-top: 300px;
+}
+
+
+div.common_form_mess{
+    border: 2px solid #FF7878;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+}
+/*=   Блок с информацией об ошибке валидации формы   =*/
+
+.form_warning{
+    background: none repeat scroll 0 0 #FF8E8E;
+    border: 1px solid red;
+    margin: 3px;
+    padding: 3px;
+    width: 450px;
+}
+
+.form_warning ul{
+    list-style-type: none;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/*=============         ==================*/
+
+.table-user-information > tbody > tr{
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child{
+    border-top: 0;
+}
+
+.table-user-information > tbody > tr > td{
+    border-top: 0;
+}
+
+.toppad{
+    margin-top: 20px;
+}

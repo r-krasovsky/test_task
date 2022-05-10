@@ -1,0 +1,10 @@
+{
+  "require": {
+    "components/jquery": "3.6.*",
+    "components/bootstrap": "4.6.1",
+    "datatables/datatables": "1.10.*",
+    "gabordemooij/redbean": "dev-master",
+    "gladyshev/rucaptcha-client": "2.0.*"
+
+  }
+}
