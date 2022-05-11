@@ -1,1 +1,7 @@
 /.idea
+/vendor/
+public/css/bootstrap/css
+public/css/datatables/css
+public/js/bootstrap/js
+public/js/datatables/js
+public/js/jquery/jquery
