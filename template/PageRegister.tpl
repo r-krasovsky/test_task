@@ -39,7 +39,7 @@
                                 
                             </div>
                             <button type="submit" class="btn btn-primary btn-user btn-block">
-                                Зарегестрироваться
+                                Зарегистрироваться
                             </button>
                         </form>
                         <div class="text-center">
